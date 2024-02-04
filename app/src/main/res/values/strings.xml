@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Goals_Setter_App</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="goalDesc">target logo</string>
+    <string name="signup">Signup</string>
+    <string name="switchLogin">Already registered? Login Here</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="switchRegister">Don\'t have an account? Register Here</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20sp"
+
+    tools:context=".RegisterPage">
+
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="30dp"
+
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/regUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:autofillHints="username"
+        android:gravity="start"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:gravity="start"
+        android:textSize="20sp"
+        android:id="@+id/regPassword"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:hint="@string/password"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:gravity="start"
+        android:textSize="20sp"
+        android:id="@+id/regEmail"
+        android:inputType="textEmailAddress"
+        android:autofillHints="email"
+        android:hint="@string/email"
+        />
+
+    <TextView
+        android:id="@+id/switchLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/switchLogin"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="@string/signup"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"/>
+
+
+
+
+</LinearLayout>
